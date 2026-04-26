@@ -152,3 +152,5 @@ const CACHE_NAME = "training-tracker-pwa-v2";
 ```
 
 Например, поменяй `v1` на `v2`, потом снова загрузи файл на GitHub.
+
+
