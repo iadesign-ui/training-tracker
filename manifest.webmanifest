@@ -1,7 +1,8 @@
 {
-  "name": "Трекер тренировок и дел",
+  "name": "Трекер тренировок",
   "short_name": "Тренировки",
-  "description": "Трекер силовых, кардио, задач, заметок и прогресса.",
+  "description": "Трекер тренировок, целей, дел и прогресса.",
+  "id": "./",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
@@ -10,11 +11,17 @@
     "minimal-ui",
     "browser"
   ],
-  "background_color": "#f4f5f7",
-  "theme_color": "#111111",
+  "background_color": "#F4F5F7",
+  "theme_color": "#F4F5F7",
   "orientation": "portrait-primary",
   "lang": "ru",
   "icons": [
+    {
+      "src": "./icons/icon-180.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    },
     {
       "src": "./icons/icon-192.png",
       "sizes": "192x192",
@@ -26,13 +33,6 @@
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
-    },
-    {
-      "src": "./icons/icon-180.png",
-      "sizes": "180x180",
-      "type": "image/png",
-      "purpose": "any"
     }
-  ],
-  "id": "./"
+  ]
 }

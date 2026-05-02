@@ -1,4 +1,4 @@
-const CACHE_NAME = "training-tracker-pwa-v1";
+const CACHE_NAME = "training-tracker-ui-v2-cache-v1";
 const APP_SHELL = [
   "./",
   "./index.html",
